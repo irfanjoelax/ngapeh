@@ -148,10 +148,18 @@ class Artikel_model extends CI_Model {
 			$config['width']= 1000;
 			$config['height']= 793;
             $config['new_image']= './back/artikel/'.$gbr['file_name'];
+            $config['wm_text'] = 'ngapeh.co';
+            $config['wm_type'] = 'text';
+            $config['wm_font_path'] = './system/fonts/texb.ttf';
+            $config['wm_font_size'] = '20';
+            $config['wm_font_color'] = 'ffc107';
+            $config['wm_vrt_alignment'] = 'bottom';
+            $config['wm_hor_alignment'] = 'left';
             
             // load library resize codeigniter
 			$this->load->library('image_lib', $config);
-			$this->image_lib->resize();
+            $this->image_lib->resize();
+            $this->image_lib->watermark();
 
 	        return $this->upload->data("file_name");
 		}
