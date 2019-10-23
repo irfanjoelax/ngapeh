@@ -11,9 +11,6 @@ class Welcome extends CI_Controller {
         // load model yang digunakan
 		$this->load->model('artikel_model');
 		$this->load->model('informasi_model');
-
-		// cache control
-		$this->output->cache(60);
 	}
 
 	public function index()
