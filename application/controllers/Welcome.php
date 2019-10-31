@@ -33,6 +33,13 @@ class Welcome extends CI_Controller {
 	public function artikel_detail($slug)
 	{
 		$artikel = $this->artikel_model->get_slug($slug);
+
+		$kata 		= $artikel->isi_art;
+		$panjang 	= strlen($kata);
+		$bagi 		= $panjang / 2;
+		$hasil1 	= substr($kata, 0, $bagi);
+		$hasil2 	= substr($kata,$bagi);
+
 		// ubah hit dengan tambah satu
 		$this->db->where('slug_art', $slug)->update('t_art', array('hit_art' => $artikel->hit_art+1 ));
 
@@ -40,6 +47,8 @@ class Welcome extends CI_Controller {
 		$parsing = array(
 			// artikel detail by slug
 			'art' 			=> $this->artikel_model->get_slug($slug),  
+			'isi_art1' 		=> $hasil1,  
+			'isi_art2' 		=> $hasil2,  
 			// area berita populer dan sidebar beranda
 			'populars' 		=> $this->artikel_model->get_popular(7)->result(), 
 			// informasi media sosial dan kontak

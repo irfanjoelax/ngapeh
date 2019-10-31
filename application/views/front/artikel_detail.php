@@ -21,7 +21,16 @@
 										<i class="fa fa-calendar"></i> &nbsp; <?= tanggal($art->tgl_art) ?>  &nbsp;
 										<i class="fa fa-eye"></i> &nbsp; <?= $art->hit_art ?>
 									</p>
-                                    <p><?= $art->isi_art ?></p>
+                                    <!-- isi artikel -->
+                                    <p>
+                                        <?= $isi_art1 ?>
+                                    </p>
+                                    <p>
+                                        <img src="<?= base_url('front/iklan-laut-parfum.jpeg') ?>" alt="ilan laut parfume">
+                                    </p>
+                                    <p>
+                                        <?= $isi_art2 ?>
+                                    </p>
                                     <div class="newspaper-post-like d-flex align-items-center justify-content-between">
 										<div class="addthis_inline_share_toolbox"></div>
                                     </div>
