@@ -110,3 +110,5 @@
     <script src="<?= base_url('front') ?>/js/active.js"></script>
     <!-- owl carousel js -->
     <script src="<?= base_url('front') ?>/js/owl.carousel.min.js"></script>
+    <!-- lazy size js -->
+    <script src="<?= base_url('front') ?>/js/lazysize.min.js"></script>
