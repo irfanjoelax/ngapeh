@@ -97,7 +97,7 @@
     });
 </script>
 <script>
-    var roxyFileman = '<?php echo base_url('back/vendor/fileman/') ?>'; 
+    var roxyFileman = '<?php echo base_url('back/vendor/fileman/index.html') ?>'; 
 
     $(document).ready(function () {
 
