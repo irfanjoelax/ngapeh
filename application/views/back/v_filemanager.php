@@ -5,7 +5,7 @@
         <div class="card shadow mb-4">
             <div class="card-body">
                 <div class="embed-responsive embed-responsive-21by9">
-                    <iframe class="embed-responsive-item" src="<?= base_url('back/vendor/fileman/') ?>"></iframe>
+                    <iframe class="embed-responsive-item" src="<?= base_url('back/vendor/fileman/index.html') ?>"></iframe>
                 </div>
             </div>
         </div>

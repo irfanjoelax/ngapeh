@@ -47,8 +47,8 @@ class Welcome extends CI_Controller {
 		$parsing = array(
 			// artikel detail by slug
 			'art' 			=> $this->artikel_model->get_slug($slug),  
-			'isi_art1' 		=> $hasil1,  
-			'isi_art2' 		=> $hasil2,  
+			// 'isi_art1' 		=> $hasil1,  
+			// 'isi_art2' 		=> $hasil2,  
 			// area berita populer dan sidebar beranda
 			'populars' 		=> $this->artikel_model->get_popular(7)->result(), 
 			// informasi media sosial dan kontak
