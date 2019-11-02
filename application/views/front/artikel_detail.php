@@ -23,13 +23,7 @@
 									</p>
                                     <!-- isi artikel -->
                                     <p>
-                                        <?= $isi_art1 ?>
-                                    </p>
-                                    <p>
-                                        <img src="<?= base_url('front/iklan-laut-parfum.jpeg') ?>" alt="ilan laut parfume">
-                                    </p>
-                                    <p>
-                                        <?= $isi_art2 ?>
+                                        <?= $art->isi_art ?>
                                     </p>
                                     <div class="newspaper-post-like d-flex align-items-center justify-content-between">
 										<div class="addthis_inline_share_toolbox"></div>
