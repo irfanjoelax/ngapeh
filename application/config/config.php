@@ -45,7 +45,7 @@ $config['base_url'] .= str_replace(basename($_SERVER['SCRIPT_NAME']), "", $_SERV
 | Base Site URL instead.
 |
 */
-$config['keycdn_url'] = 'https://ngapeh-12a20.kxcdn.com/';
+$config['keycdn_url'] = 'http://ngapeh-12a20.kxcdn.com/';
 
 /*
 |--------------------------------------------------------------------------
