@@ -4,7 +4,7 @@
     <div class="container mt-2">
         <div class="owl-carousel">
             <?php foreach($populars as $pop): ?>    
-                <div> <a href="<?= site_url('artikel_detail/'.$pop->slug_art) ?>"><img src="<?= base_url('back/artikel/'.$pop->gbr_art) ?>" alt=""></a> </div>
+                <div> <a href="<?= site_url('artikel_detail/'.$pop->slug_art) ?>"><img data-src="<?= base_url('back/artikel/'.$pop->gbr_art) ?>" class="lazyload" alt=""></a> </div>
             <?php endforeach; ?>
         </div>
     </div>
@@ -20,7 +20,7 @@
                         <div class="col-12 col-lg-7">
                             <div class="single-blog-post featured-post">
                                 <div class="post-thumb">
-                                    <a href="#"><img src="<?= base_url('back/artikel/'.$baru_satu->gbr_art) ?>" alt=""></a>
+                                    <a href="#"><img data-src="<?= base_url('back/artikel/'.$baru_satu->gbr_art) ?>" class="lazyload" alt=""></a>
                                 </div>
                                 <div class="post-data">
                                     <a href="<?= site_url('kategori/'.$baru_satu->kat_art) ?>" class="post-catagory"><?= $baru_satu->kat_art ?></a>
@@ -43,7 +43,7 @@
                             <!-- berita terpopluer post -->
                             <div class="single-blog-post featured-post-2">
                                 <div class="post-thumb">
-                                    <a href="#"><img src="<?= base_url('back/artikel/'.$pop_satu->gbr_art) ?>" alt=""></a>
+                                    <a href="#"><img class="lazyload" data-src="<?= base_url('back/artikel/'.$pop_satu->gbr_art) ?>" alt=""></a>
                                 </div>
                                 <div class="post-data">
                                     <a href="<?= site_url('kategori/'.$pop_satu->kat_art) ?>" class="post-catagory"><?= $pop_satu->kat_art ?></a>
@@ -63,7 +63,7 @@
                             <!-- berita terpopluer post -->
                             <div class="single-blog-post featured-post-2">
                                 <div class="post-thumb">
-                                    <a href="#"><img src="<?= base_url('back/artikel/'.$pop_dua->gbr_art) ?>" alt=""></a>
+                                    <a href="#"><img class="lazyload" data-src="<?= base_url('back/artikel/'.$pop_dua->gbr_art) ?>" alt=""></a>
                                 </div>
                                 <div class="post-data">
                                     <a href="<?= site_url('kategori/'.$pop_dua->kat_art) ?>" class="post-catagory"><?= $pop_dua->kat_art ?></a>
@@ -88,7 +88,7 @@
                     <!-- Single Featured Post -->
                     <div class="single-blog-post small-featured-post d-flex">
                         <div class="post-thumb">
-                            <a href="#"><img src="<?= base_url('back/artikel/'.$pop->gbr_art) ?>" alt=""></a>
+                            <a href="#"><img class="lazyload" data-src="<?= base_url('back/artikel/'.$pop->gbr_art) ?>" alt=""></a>
                         </div>
                         <div class="post-data">
                             <a href="<?= site_url('kategori/'.$pop->kat_art) ?>" class="post-catagory"><?= $pop->kat_art ?></a>
@@ -124,7 +124,7 @@
                         <div class="col-12 col-md-6">
                             <div class="single-blog-post style-3">
                                 <div class="post-thumb">
-                                    <a href="#"><img src="<?= base_url('back/artikel/'.$baru->gbr_art) ?>" alt=""></a>
+                                    <a href="#"><img class="lazyload" data-src="<?= base_url('back/artikel/'.$baru->gbr_art) ?>" alt=""></a>
                                 </div>
                                 <div class="post-data">
                                     <a href="<?= site_url('kategori/'.$baru->kat_art) ?>" class="post-catagory"><?= $baru->kat_art ?></a>

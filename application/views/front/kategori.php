@@ -13,7 +13,7 @@
                         <div class="col-12 col-md-6">
                             <div class="single-blog-post style-3">
                                 <div class="post-thumb">
-                                    <a href="#"><img src="<?= base_url('back/artikel/'.$baru->gbr_art) ?>" alt=""></a>
+                                    <a href="#"><img data-src="<?= base_url('back/artikel/'.$baru->gbr_art) ?>" class="lazyload" alt=""></a>
                                 </div>
                                 <div class="post-data">
                                     <a href="<?= site_url('kategori/'.$baru->kat_art) ?>" class="post-catagory"><?= $baru->kat_art ?></a>

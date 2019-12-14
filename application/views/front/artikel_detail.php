@@ -9,7 +9,7 @@
                         <!-- Single Featured Post -->
                         <div class="single-blog-post featured-post single-post">
                             <div class="post-thumb">
-                                <a href="#"><img src="<?= base_url('back/artikel/'.$art->gbr_art) ?>" alt=""></a>
+                                <a href="#"><img data-src="<?= base_url('back/artikel/'.$art->gbr_art) ?>" class="lazyload" alt=""></a>
                             </div>
                             <div class="post-data">
                                 <a href="<?= site_url('kategori/'.$art->kat_art) ?>" class="post-catagory"><?= $art->kat_art ?></a>

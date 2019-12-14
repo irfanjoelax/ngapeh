@@ -111,4 +111,4 @@
     <!-- owl carousel js -->
     <script src="<?= base_url('front') ?>/js/owl.carousel.min.js"></script>
     <!-- lazy size js -->
-    <script src="<?= base_url('front') ?>/js/lazysize.min.js"></script>
+    <script src="<?= base_url('front') ?>/js/lazysize.min.js" async=""></script>
