@@ -19,6 +19,14 @@
     <!-- Custom styles for this template-->
     <link href="<?= base_url('back/css/sb-admin-2.min.css') ?>" rel="stylesheet" type="text/css">
     <link href="<?= base_url('back/vendor/datatables/dataTables.bootstrap4.min.css') ?>" rel="stylesheet" type="text/css">
+
+    <include expiration=’7d’ path=’*.css’ />
+    <include expiration=’7d’ path=’*.js’ />
+    <include expiration=’3d’ path=’*.gif’ />
+    <include expiration=’3d’ path=’*.jpeg’ />
+    <include expiration=’3d’ path=’*.jpg’ />
+    <include expiration=’3d’ path=’*.png’ />
+    <meta http-equiv=”expires” content=”sat, 02 jun 2020 00:00:00 GMT” />
 </head>
 
 <body id="page-top">
@@ -34,8 +42,8 @@
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
                 <a class="nav-link" href="<?= site_url('admin/index') ?>">
-                <i class="fas fa-fw fa-tachometer-alt"></i> 
-                <span>Beranda Utama</span></a>
+                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <span>Beranda Utama</span></a>
             </li>
 
             <!-- Divider -->
@@ -43,44 +51,44 @@
 
             <li class="nav-item active">
                 <a class="nav-link" href="<?= site_url('welcome') ?>" target="_blank">
-                <i class="fas fa-fw fa-paper-plane"></i>
-                <span>Kunjungi Website</span></a>
+                    <i class="fas fa-fw fa-paper-plane"></i>
+                    <span>Kunjungi Website</span></a>
             </li>
 
             <!-- Divider -->
             <hr class="sidebar-divider my-0">
-            
+
             <li class="nav-item active">
                 <a class="nav-link" href="<?= site_url('admin/index/artikel') ?>">
-                <i class="fas fa-fw fa-newspaper"></i>
-                <span>Menu Artikel</span></a>
-            </li>
-            
-            <!-- Divider -->
-            <hr class="sidebar-divider my-0">
-            
-            <li class="nav-item active">
-                <a class="nav-link" href="<?= site_url('admin/index/subscribe') ?>">
-                <i class="fas fa-fw fa-at"></i>
-                <span>Menu Subscribe</span></a>
+                    <i class="fas fa-fw fa-newspaper"></i>
+                    <span>Menu Artikel</span></a>
             </li>
 
             <!-- Divider -->
             <hr class="sidebar-divider my-0">
-            
+
             <li class="nav-item active">
-                <a class="nav-link" href="<?= site_url('admin/index/sosmed/1') ?>">
-                <i class="fas fa-fw fa-cogs"></i>
-                <span>Sosial Media</span></a>
+                <a class="nav-link" href="<?= site_url('admin/index/subscribe') ?>">
+                    <i class="fas fa-fw fa-at"></i>
+                    <span>Menu Subscribe</span></a>
             </li>
-            
+
             <!-- Divider -->
             <hr class="sidebar-divider my-0">
-            
+
+            <li class="nav-item active">
+                <a class="nav-link" href="<?= site_url('admin/index/sosmed/1') ?>">
+                    <i class="fas fa-fw fa-cogs"></i>
+                    <span>Sosial Media</span></a>
+            </li>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+
             <li class="nav-item active">
                 <a class="nav-link" href="<?= site_url('admin/index/filemanager') ?>">
-                <i class="fas fa-fw fa-desktop"></i>
-                <span>File Manager</span></a>
+                    <i class="fas fa-fw fa-desktop"></i>
+                    <span>File Manager</span></a>
             </li>
 
             <!-- Divider -->
@@ -104,10 +112,11 @@
                     <div class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
                         <div id="jam-digital"></div>
                         <script>
-                            window.setTimeout("waktu()",1000); 
+                            window.setTimeout("waktu()", 1000);
+
                             function waktu() {
-                                arrbulan = ["Januari","Februari","Maret","April","Mei","Juni","Juli","Agustus","September","Oktober","November","Desember"];
-                                arrhari = ["Minggu","Senin","Selasa","Rabu","Kamis","Jum'at","Sabtu"];
+                                arrbulan = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"];
+                                arrhari = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jum'at", "Sabtu"];
                                 date = new Date();
                                 detik = date.getSeconds();
                                 menit = date.getMinutes();
@@ -116,9 +125,9 @@
                                 tanggal = date.getDate();
                                 bulan = date.getMonth();
                                 tahun = date.getFullYear();
-                                setTimeout("waktu()",1000);
+                                setTimeout("waktu()", 1000);
                                 // document.write(tanggal+" "+arrbulan[bulan]+" "+tahun+" | "+jam+" : "+menit+" : "+detik);
-                                document.getElementById("jam-digital").innerHTML = arrhari[hari]+" - "+tanggal+" "+arrbulan[bulan]+" "+tahun+" <strong>/</strong> "+jam+" : "+menit+" : "+detik;
+                                document.getElementById("jam-digital").innerHTML = arrhari[hari] + " - " + tanggal + " " + arrbulan[bulan] + " " + tahun + " <strong>/</strong> " + jam + " : " + menit + " : " + detik;
                             }
                         </script>
                     </div>
@@ -127,24 +136,24 @@
                     <ul class="navbar-nav ml-auto">
                         <!-- <hr> horizontal -->
                         <div class="topbar-divider d-none d-sm-block"></div>
-                        
+
                         <!-- Nav Item - User Information -->
                         <li class="nav-item dropdown no-arrow">
                             <a href="" class="nav-link" data-toggle="modal" data-target="#modal-profile">
-                                <span class="mr-2 d-none d-lg-inline text-gray-600 small"><?= 
-                                $this->session->userdata('nm_usr') ?></span>
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small"><?=
+                                                                                                $this->session->userdata('nm_usr') ?></span>
                                 &nbsp; <i class="fa fa-user"></i>
                             </a>
                         </li>
-                        
+
                         <!-- <hr> horizontal -->
                         <div class="topbar-divider d-none d-sm-block"></div>
-                        
+
                         <!-- Nav Item - User Information -->
                         <li class="nav-item dropdown no-arrow">
                             <a href="" class="nav-link" data-toggle="modal" data-target="#modal-profile">
-                                <span class="mr-2 d-none d-lg-inline text-gray-600 small"><?= 
-                                $this->session->userdata('em_usr') ?></span>
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small"><?=
+                                                                                                $this->session->userdata('em_usr') ?></span>
                                 &nbsp; <i class="fa fa-at"></i>
                             </a>
                         </li>

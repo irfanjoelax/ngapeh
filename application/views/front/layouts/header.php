@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <?php 
-        $url = $this->uri->segment(1);
-        if($url == "artikel_detail"){
-           $this->load->view('front/layouts/_meta_facebook');
-        }
+    <?php
+    $url = $this->uri->segment(1);
+    if ($url == "artikel_detail") {
+        $this->load->view('front/layouts/_meta_facebook');
+    }
     ?>
-    
+
     <!-- Title -->
     <title>NGAPEH | Wadah Etam Beramean</title>
 
@@ -24,6 +25,13 @@
     <link rel="stylesheet" href="<?= base_url('front') ?>/css/owl.carousel.min.css">
     <link rel="stylesheet" href="<?= base_url('front') ?>/css/owl.theme.default.css">
 
+    <include expiration=’7d’ path=’*.css’ />
+    <include expiration=’7d’ path=’*.js’ />
+    <include expiration=’3d’ path=’*.gif’ />
+    <include expiration=’3d’ path=’*.jpeg’ />
+    <include expiration=’3d’ path=’*.jpg’ />
+    <include expiration=’3d’ path=’*.png’ />
+    <meta http-equiv=”expires” content=”sat, 02 jun 2020 00:00:00 GMT” />
 </head>
 
 <body>
@@ -71,7 +79,7 @@
                         </div>
                         <!-- Menu -->
                         <div class="classy-menu">
-                            
+
                             <!-- close btn -->
                             <div class="classycloseIcon">
                                 <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
