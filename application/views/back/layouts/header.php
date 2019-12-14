@@ -10,7 +10,7 @@
 
     <title>Ngapeh | Administrator</title>
 
-    <link rel="shortcut icon" href="<?= base_url('back') ?>/ngapeh-fav.png" type="image/x-icon">
+    <link rel="shortcut icon" href="<?= base_url('back/ngapeh-fav.png') ?>" type="image/x-icon">
 
     <!-- Custom fonts for this template-->
     <link href="<?= base_url('back/vendor/fontawesome-free/css/all.min.css') ?>" rel="stylesheet" type="text/css">
@@ -19,14 +19,6 @@
     <!-- Custom styles for this template-->
     <link href="<?= base_url('back/css/sb-admin-2.min.css') ?>" rel="stylesheet" type="text/css">
     <link href="<?= base_url('back/vendor/datatables/dataTables.bootstrap4.min.css') ?>" rel="stylesheet" type="text/css">
-
-    <include expiration=’7d’ path=’*.css’ />
-    <include expiration=’7d’ path=’*.js’ />
-    <include expiration=’3d’ path=’*.gif’ />
-    <include expiration=’3d’ path=’*.jpeg’ />
-    <include expiration=’3d’ path=’*.jpg’ />
-    <include expiration=’3d’ path=’*.png’ />
-    <meta http-equiv=”expires” content=”sat, 02 jun 2020 00:00:00 GMT” />
 </head>
 
 <body id="page-top">

@@ -9,7 +9,7 @@
                     <div class="footer-widget-area mt-80">
                         <!-- Footer Logo -->
                         <div class="footer-logo">
-                            <a href="index.html"><img src="<?= base_url('front') ?>/ngapeh-logo.png" alt=""></a>
+                            <a href="index.html"><img src="<?= base_url('front/ngapeh-logo.png') ?>" alt=""></a>
                         </div>
                         <!-- List -->
                         <ul class="list">

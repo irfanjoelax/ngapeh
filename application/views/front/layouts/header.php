@@ -63,7 +63,7 @@
                     <nav class="classy-navbar justify-content-between" id="newspaperNav">
                         <!-- Logo -->
                         <div class="logo">
-                            <a href="<?= site_url('/') ?>"><img src="<?= base_url('front/ngapeh-logo.png') ?>" alt=""></a>
+                            <a href="<?= site_url('/') ?>"><img class="lazyload" data-src="<?= base_url('front/ngapeh-logo.png') ?>" alt=""></a>
                         </div>
                         <!-- Navbar Toggler -->
                         <div class="classy-navbar-toggler">

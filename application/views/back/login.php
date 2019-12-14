@@ -10,7 +10,7 @@
 
     <title>NGAPEH | LOGIN</title>
 
-    <link rel="shortcut icon" href="<?= base_url('back') ?>/ngapeh-fav.png" type="image/x-icon">
+    <link rel="shortcut icon" href="<?= base_url('back/ngapeh-fav.png') ?>" type="image/x-icon">
 
     <!-- Custom fonts for this template-->
     <link href="<?= base_url('back/vendor/fontawesome-free/css/all.min.css') ?>" rel="stylesheet" type="text/css">
@@ -31,7 +31,7 @@
                                 <div class="p-5">
                                     <div class="text-center">
                                         <h1 class="h4 text-gray-900 mb-4">
-                                            <img src="<?= base_url('front') ?>/ngapeh-logo.png" alt="" width="250">
+                                            <img src="<?= base_url('front/ngapeh-logo.png') ?>" alt="" width="250">
                                         </h1>
                                     </div>
                                     <form action="<?= site_url('auth/login') ?>" method="post" class="user">
@@ -64,16 +64,16 @@
     <script src="<?= base_url('back/js/sb-admin-2.min.js') ?>"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script>
-        $(document).ready(function () {
-    
+        $(document).ready(function() {
+
             // function untuk validasi login 
-            $('#log_submit').on('click', function () {
+            $('#log_submit').on('click', function() {
                 // init variabel
                 var email = $('#log_email').val();
                 var pass = $('#log_pass').val();
 
                 // jika email dan pass kosong
-                if(email == "" && pass == ""){
+                if (email == "" && pass == "") {
                     swal({
                         text: "email dan password anda masih kosong",
                         icon: "warning",
@@ -81,9 +81,9 @@
                     });
                     return false;
                 }
-                
+
                 // jika email saja yang kosong
-                if(email == ""){
+                if (email == "") {
                     swal({
                         text: "email anda masih kosong",
                         icon: "warning",
@@ -91,8 +91,8 @@
                     });
                     return false;
                 }
-                
-                if(IsEmail(email) == false){
+
+                if (IsEmail(email) == false) {
                     swal({
                         text: "email anda tidak valid",
                         icon: "warning",
@@ -100,9 +100,9 @@
                     });
                     return false;
                 }
-                
+
                 // jika pass yang kosong
-                if(pass == ""){
+                if (pass == "") {
                     swal({
                         text: "password anda masih kosong",
                         icon: "warning",
@@ -110,7 +110,7 @@
                     });
                     return false;
                 }
-                
+
                 return true;
             });
         });
@@ -119,14 +119,14 @@
         function IsEmail(tf) {
             var valid = /^([a-zA-Z0-9_\.\-\+])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
 
-            if(!valid.test(tf)) {
+            if (!valid.test(tf)) {
                 return false;
-            }
-            else {
+            } else {
                 return true;
             }
         }
     </script>
 
 </body>
+
 </html>
