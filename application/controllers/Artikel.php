@@ -31,7 +31,7 @@ class Artikel extends CI_Controller
 
             $row[]  = '<center>' . $no++ . '</center>';
             $row[]  =   '<center>
-				            <img class="lazyload" data-src="' . base_url('back/artikel/$list->gbr_art') . '" width="80" height="50">
+				            <img class="lazyload" data-src="' . site_url('back/artikel/') . $list->gbr_art . '" width="80" height="50">
                         </center>';
             $row[]  = $list->jdl_art;
             $row[]  = '<center>' . $list->hit_art . '</center>';
