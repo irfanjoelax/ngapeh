@@ -28,24 +28,6 @@ $config['base_url'] .= "://" . $_SERVER['HTTP_HOST'];
 $config['base_url'] .= str_replace(basename($_SERVER['SCRIPT_NAME']), "", $_SERVER['SCRIPT_NAME']);
 // $config['base_url'] = 'http://ngapeh.co/';
 
-/*
-|--------------------------------------------------------------------------
-| KeyCDN URL
-|--------------------------------------------------------------------------
-|
-| URL to your KeyCDN Zone. Use your Zone URL or Zone Alias,
-| WITH a trailing slash:
-|
-|    http://examplepull-1a2b.kxcdn.com/
-|    http://cdn.example.com/
-|
-| WARNING: You MUST set this value to enable KeyCDN!
-|
-| If it is not set, then the extended URL Helper will use your default
-| Base Site URL instead.
-|
-*/
-$config['keycdn_url'] = 'http://ngapeh-12a20.kxcdn.com/';
 
 /*
 |--------------------------------------------------------------------------
