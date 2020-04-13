@@ -101,16 +101,16 @@
 
 <!-- ##### All Javascript Files ##### -->
 <!-- jQuery-2.2.4 js -->
-<script src="<?= base_url('front/js/jquery/jquery-2.2.4.min.js') ?>"></script>
+<script src="http://cdnfront.ngapeh.co/js/jquery/jquery-2.2.4.min.js"></script>
 <!-- Popper js -->
-<script src="<?= base_url('front/js/bootstrap/popper.min.js') ?>"></script>
+<script src="http://cdnfront.ngapeh.co/js/bootstrap/popper.min.js"></script>
 <!-- Bootstrap js -->
-<script src="<?= base_url('front/js/bootstrap/bootstrap.min.js') ?>"></script>
+<script src="http://cdnfront.ngapeh.co/js/bootstrap/bootstrap.min.js"></script>
 <!-- All Plugins js -->
-<script src="<?= base_url('front/js/plugins/plugins.js') ?>"></script>
+<script src="http://cdnfront.ngapeh.co/js/plugins/plugins.js"></script>
 <!-- Active js -->
-<script src="<?= base_url('front/js/active.js') ?>"></script>
+<script src="http://cdnfront.ngapeh.co/js/active.js"></script>
 <!-- owl carousel js -->
-<script src="<?= base_url('front/js/owl.carousel.min.js') ?>"></script>
+<script src="http://cdnfront.ngapeh.co/js/owl.carousel.min.js"></script>
 <!-- lazy size js -->
-<script src="<?= base_url('front/js/lazysize.min.js') ?>" async=""></script>
+<script src="http://cdnfront.ngapeh.co/js/lazysize.min.js"></script>
