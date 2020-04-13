@@ -22,6 +22,7 @@
 
     <!-- Core Stylesheet -->
     <link rel="stylesheet" href="http://cdnfront.ngapeh.co/style.css">
+    <link href="http://cdnback.ngapeh.co/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="http://cdnfront.ngapeh.co/css/owl.carousel.min.css">
     <link rel="stylesheet" href="http://cdnfront.ngapeh.co/css/owl.theme.default.css">
 </head>
