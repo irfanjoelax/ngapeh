@@ -101,7 +101,7 @@
 
 <!-- ##### All Javascript Files ##### -->
 <!-- jQuery-2.2.4 js -->
-<script src="http://cdnfront.ngapeh.co/js/jquery/jquery-2.2.4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <!-- Popper js -->
 <script src="http://cdnfront.ngapeh.co/js/bootstrap/popper.min.js"></script>
 <!-- Bootstrap js -->
@@ -111,6 +111,6 @@
 <!-- Active js -->
 <script src="http://cdnfront.ngapeh.co/js/active.js"></script>
 <!-- owl carousel js -->
-<script src="http://cdnfront.ngapeh.co/js/owl.carousel.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 <!-- lazy size js -->
-<script src="http://cdnfront.ngapeh.co/js/lazysize.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.2/lazysizes.min.js"></script>

@@ -22,9 +22,9 @@
 
     <!-- Core Stylesheet -->
     <link rel="stylesheet" href="http://cdnfront.ngapeh.co/style.css">
-    <link href="http://cdnback.ngapeh.co/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="http://cdnfront.ngapeh.co/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="http://cdnfront.ngapeh.co/css/owl.theme.default.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
 </head>
 
 <body>
