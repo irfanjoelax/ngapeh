@@ -18,10 +18,10 @@
     <title>NGAPEH | Wadah Etam Beramean</title>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="http://cdnback.ngapeh.co/ngapeh-fav.png" type="image/x-icon">
+    <link rel="shortcut icon" href="<?= base_url('back/ngapeh-fav.png') ?>" type="image/x-icon">
 
     <!-- Core Stylesheet -->
-    <link rel="stylesheet" href="http://cdnfront.ngapeh.co/style.css">
+    <link rel="stylesheet" href="<?= base_url('front/style.css') ?>">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
